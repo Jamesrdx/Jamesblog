@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header styles */
+html{
+    font-size: 62.5%;
+}
+
+header{
+    
+    height: 9rem;
+    background: rgb(13, 13, 255);
+    color: white;
+}
+nav h1{
+    
+    font-size: 4rem;
+    width: 50rem;
+     position:relative;
+    top: 2rem;
+    left:2rem 
+    
+     
+ }
+ nav ul{
+     position: relative;
+     top: 1rem;
+     margin-left: 0.5rem;
+     z-index: 1;
+ }
+ nav ul li{
+    font-size:2rem;
+     margin-top: 2rem ;
+     margin-left: 0.5rem;
+     display: inline-block;
+     background-color: rgb(66, 69, 75);
+     border-radius: 0.6rem;
+     
+ }
+ nav ul li a{
+     padding: 0rem 0.4rem 0rem 0.4rem;
+     text-decoration: none;
+     color:inherit;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ /* Main section */
+ main{
+    display: flex;
+    background: #181a1b;  
+    color: white;
+    
+
+}
+ /*  section news styles */
+ .barra{
+    position: relative;
+    text-align: center;
+    width: 25rem;
+    height: 50rem;
+    background: rgb(94, 171, 190);
+    
+}
+
+.barra__text{
+    color: white;
+    position: relative;
+    left: 5rem;
+    width: 15rem; 
+    position: relative;
+    top: 4rem;
+   
+}
+.barra__text h3{
+font-size: 2rem;
+
+}
+.barra__text p{
+position: relative;
+top: 00.5rem;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+.barra__img{
+    position: relative;
+    top: 1rem;
+    width: 15rem;
+    height: 13rem;
+}
+
+.button {
+    margin-top: 2rem;
+    border: solid 0.1rem gold;
+    min-width: 8rem;
+    height: 3.5rem;
+    padding: 0 30px;
+    background: rgb(67, 67, 70) ;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    border-radius: 3rem;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: .3s ease all; 
+}
+.button__text{
+    font-size: 1.5rem;
+}
+
+/* home */
+.home{
+    position: relative;
+    left: 200.5px;
+    
+}
+.home div{
+    position: relative;
+    top: 2rem;
+    text-align: center;
+
+}
+.home div h2 {
+    position: relative;
+    font-size: 4rem;  
+}
+.home div p{
+    margin-top:3rem;;
+    width: 45rem;
+    font-size: 2rem;
+    text-align: justify;
+    color: blue;
+}
+/* blog archive*/
+main article {
+    position: relative;
+    left: 39.5rem;
+    background: rgb(58, 63, 73);
+    height: 50rem;
+    width: 25rem;
+}
