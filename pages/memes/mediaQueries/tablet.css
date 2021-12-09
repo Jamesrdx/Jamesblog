@@ -1,0 +1,24 @@
+#home{
+    width: auto;
+    order: 1;
+    }
+    #pics{
+        width: auto;
+        order: 3;
+    }
+    #memes{
+        width: auto;
+        order: 5;
+    }
+    #music{
+        width: auto;
+        order:2;
+    }
+    #rare{
+    width:auto;
+    order: 4;
+    }
+    #posts{
+        width: auto;
+        order: 6;
+    }

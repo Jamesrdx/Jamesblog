@@ -1,0 +1,48 @@
+.nav{
+    height: auto;
+}
+.nav__title{
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__pages ul{
+    width: 100%;
+    justify-content: space-evenly;
+
+}
+.nav__pages ul li{
+    display: flex;
+    justify-content: center;
+}
+#home{
+width: 33%;
+order: 1;
+}
+#pics{
+    width: 33%;
+    order: 2;
+}
+#memes{
+    width: 33%;
+    order: 3;
+}
+#music{
+    width: 33%;
+    order:4;
+}
+#rare{
+width:33%;
+order: 5;
+}
+#posts{
+    width: 33%;
+    order: 6;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 2rem;
+}
